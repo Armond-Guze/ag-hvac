@@ -2,18 +2,23 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between px-12 h-32 relative bg-black text-white text-center flex-row mx-auto '>
-        <div>
-            logo
-        </div>
-        <ul className='flex space-x-8 justify-center items-center loading-none list-non text-lg '>
-            <li>About us</li>
-            <li>Services</li>
-            <li>About us</li>
-            <li>Careers</li>
-            <li>Contact</li>
+    <div className='flex items-center justify-between h-32 bg-black text-white px-12 w-full'>
+      <div className='text-lg font-bold cursor-pointer'>
+        logo
+      </div>
+
+      <div className='flex-1 flex justify-center'>
+        <ul className='flex space-x-8 items-center text-lg'>
+          <li className='cursor-pointer'>About us</li>
+          <li className='cursor-pointer'>Services</li>
+          <li className='cursor-pointer'>Careers</li>
+          <li className='cursor-pointer'>Contact</li>
         </ul>
-        <button className='bg-blue-300 rounded p-2 flex-end cursor-pointer'>Schedule Service / Book Now</button>
+      </div>
+
+      <button className='bg-blue-300 rounded p-2 text-black cursor-pointer'>
+        Schedule Service
+      </button>
     </div>
   )
 }
