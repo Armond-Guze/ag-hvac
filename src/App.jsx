@@ -1,10 +1,14 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className='bg-gray-400 h-258'><Navbar /></div>
-  )
-}
+    <div className="bg-gray-400 h-258">
+      <Navbar />
+      <Header />
+    </div>
+  );
+};
 
-export default App
+export default App;
