@@ -8,7 +8,7 @@ const Header = () => {
       <div className="xl:pl-24">
         <div className="lg:text-xl">
         <h1 className="text-2xl lg:text-3xl md:text-2xl ">24/7 Local Air Conditioning Services</h1>
-        <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-semibold mt-4">
+        <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-semibold mt-4 uppercase">
           <span className="whitespace-nowrap">AG Heating & Cooling </span><br /> Serving NJ, NY <br /> Reliable.
           <span className="text-red-200">Qualified.</span>
         </h1>

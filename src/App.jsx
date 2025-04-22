@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import IconSection from "./components/IconSection";
 import ServiceCards from "./components/ServiceCards";
+import WelcomeCard from "./components/WelcomeCard";
 
 const App = () => {
   return (
@@ -10,7 +11,9 @@ const App = () => {
       <Navbar />
       <Header />
       <IconSection />
+      <WelcomeCard />
       <ServiceCards />
+      
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { Snowflake, Flame, Wrench, HardHat, User } from "lucide-react";
 const IconSection = () => {
   return (
     <div className="flex flex-row justify-center items-center h-32 w-full bg-blue-700 text-white ">
-      <ul className="flex flex-row lg:space-x-48 space-x-6 text-sm md:space-x-32">
+      <ul className="flex flex-row space-x-6 lg:space-x-12 text-sm md:space-x-32">
         <li>
           <Snowflake size={32} className="text-blue-300" />Residential and commercial Air conditioning
         </li>

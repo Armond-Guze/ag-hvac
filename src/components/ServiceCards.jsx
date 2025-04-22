@@ -12,12 +12,12 @@ const ServiceCards = () => {
         <p className="lg:text-xl mt-6">
           Our range of air conditioning services is designed to cater to the
           diverse needs of both residential <br /> and commerical clients in New
-          Jersey and New York. With our team of of Qualified technicians,
+          Jersey and New York. With our team of Qualified technicians,
           cutting-edge <br /> technology, and commitment to excellence, we
           guarentee satisfaction in every service we provide.
         </p>
       </div>
-      <div className="flex flex-row mt-12 text-xl justify-center items-center ">
+      <div className="flex flex-row mt-12 text-xl justify-center max-width items-center ">
         <ul className="flex flex-row space-x-8">
           <li className="bg-white px-6 py-8 max-w-sm rounded shadow-lg">
             <img
